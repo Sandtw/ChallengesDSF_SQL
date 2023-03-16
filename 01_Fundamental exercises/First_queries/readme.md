@@ -13,8 +13,8 @@
     RESTORE DATABASE AdventureWork2017
     FROM DISK='<Ruta_del_AdventureWorks2017.bak>'
     WITH REPLACE, RECOVERY,
-    MOVE 'AdventureWorks2017' TO '<Ruta_de_una_carpeta_dentro_de_MSSQL>', 
-    MOVE 'AdventureWorks2017_log' TO '<Ruta_de_una_carpeta_dentro_de_MSSQL>'; 
+    MOVE 'AdventureWorks2017' TO '<Ruta_de_una_carpeta_dentro_de_MSSQL>\AdventureWorks2017.mdf', 
+    MOVE 'AdventureWorks2017_log' TO '<Ruta_de_una_carpeta_dentro_de_MSSQ\AdventureWorks2017_log.ldf'; 
 
     ```
 
