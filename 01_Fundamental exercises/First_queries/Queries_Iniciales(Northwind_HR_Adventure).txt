@@ -1,0 +1,80 @@
+-- Ejercicios: Base Northwind
+-- ==========================
+
+-- 1. Muestre los registros de la tabla de empleados.
+
+-- 2. Muestre los nombres y apellidos de los empleados.
+
+-- 3. Muestre los nombres de las ciudades que aparecen en la 
+-- tabla de empleados. (No mostrar 2 veces un mismo nombre de ciudad).
+
+-- 4. Muestre los nombres de productos y precios unitarios de la tabla de productos.
+
+-- 5. Muestre de la tabla de empleados que viven en USA.
+
+-- 6. Muestre los clientes: listar nombre de la empresa de todos 
+-- los clientes que viven en la ciudades London, Bräcke, Cowes.
+
+-- 7. Muestre las ciudades con su cantidad de clientes
+
+-- 8. Muestre los clientes que tienen la region en blanco (NULA).
+
+-- 9. Muestre los 5 productos con mayor precio unitario.
+
+-- 10. Muestre los 5 productos con menor precio unitario.
+
+-- 11. Muestre el conteo de empleados agrupados por el cargo.
+
+-- 12. Muestre los clientes y el total de compras efectuadas.
+
+-- 13. Muestre los 5 clientes que mas compraron.
+
+-- 14. Muestre los proveedores y la cantidad de productos que se han vendido.
+
+-- 15. Muestre la cantidad de pedidos y la suma de valorizados (precio por cantidad) 
+-- agrupados por año. Ordénelo por año.
+
+-- 16. Muestre los clientes agrupados por las categorias de productos.
+
+-- 17. Muestre el total de pedidos y el importe total por cada uno de ellos.
+
+-- 18. Muestre el promedio de ventas por empleado.
+
+-- 19. Muestre los clientes y sus ventas que superen los 5000
+
+-- 20. Muestre las compras de productos de los clientes en Marzo del 1996, 1997 y 1998
+
+-- Ejercicios: HR
+-- ==========================
+-- 1. Muestre por region la cantidad de empleados asignados
+
+-- 2. Muestre los cantidad de empleados por departamento
+
+-- 3. Muestre los departamentos que no tienen asignados empleados
+
+-- 4. Muestre los 5 empleados con mayor antiguedad en la empresa
+
+-- 5. Muestre los datos de los empleados que tiene la mayor cantidad de registros en la tabla job_history
+
+-- Ejercicios: AdventureWork2017
+--==========================
+
+-- 1. Muestre el Total de Ventas agrupadas por años usando PIVOT (tabla [Sales].[SalesOrderDetail])}
+
+-- 2. Muestre el promedio del valor total agrupado por producto 
+-- (la descripción se encuentra en [Production].[Product])
+
+-- 3. Muestre el Total de Ventas agrupados por ID del producto usando PIVOT y XML PATH
+
+-- 4. Se solicita crear los siguientes campos a partir de la fecha de venta: 
+-- Año, mes, día, día de la semana, trimestre y la antigüedad de venta.
+
+-- 5. Convertir en moneda los campos precio unitario y venta total en 
+-- formato moneda (asumiendo ventas en dólares y usando FORMAT)
+
+-- 6. Crear un campo que indique si se realizó o no seguimiento del pedido (campo [CarrierTrackingNumber])
+
+-- 7. Especifique los productos que fueron vendidos en el año 2012 y 2013 (Usando INTERSECT). 
+-- Muestre nombre de producto y cantidad en orden descendente por cantidad.
+
+-- 8. Especifique los productos que no fueron vendidos en el año 2012 y 2013 (Usando EXCEPT). Muéstrelos en orden alfabético.
