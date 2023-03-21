@@ -147,5 +147,5 @@ INNER JOIN dbo.[Order Details] AS od
 ON o.OrderID = od.OrderID
 INNER JOIN dbo.Products AS p
 ON od.ProductID = p.ProductID
-WHERE O.OrderDate >='1996-03-01' AND o.OrderDate <'1998-04-01'
+WHERE O.OrderDate >='1996-03-01' AND o.OrderDate<= '1996-03-31' AND O.OrderDate >='1997-03-01' AND o.OrderDate<= '1997-03-31' AND O.OrderDate >='1998-03-01' AND o.OrderDate<= '1998-03-31'
 ORDER BY [Total Compra] DESC;
